@@ -1,0 +1,42 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataContain {
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: #366dad;
+}
+
+.dataContain * {
+    margin: 20px;
+}
+
+.dataContain input {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+
+.dataContain input:hover {
+    background-color: black;
+    color: white;
+}
+
+.contain-form {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

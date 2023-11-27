@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: auto;
+}
+
+.main-content {
+    padding-top: 150px;
+    height: 100%;
+    width: 100%;
+    background-color: #0d7886;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-contain {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.reviews-contain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.review-item {
+    background-color: #366dad;
+    height: 200px;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+}
+
+.main-content.edited {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main-content.edited a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease;
+}
+
+.main-content.edited a:hover {
+    color: white;
+    
+}
+
+.main-content.panel {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.panels {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.panel__to-editing, .panel__to-deleting, .panel__to-adding {
+    height: auto;
+    background-color: #366dad;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.panel__to-adding form, .panel__to-deleting form, .panel__to-editing form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.panel__to-adding form input, .panel__to-deleting form input, .panel__to-editing form input {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
+
+.panel__to-adding form select, .panel__to-deleting form select, .panel__to-editing form select {
+    width: 60%;
+    margin: 10px auto;
+    height: 40px;
+}
